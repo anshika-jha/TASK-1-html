@@ -1,0 +1,90 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+
+
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    height: 90px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(125, 216, 230, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+ ul{
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+    float: inline-end;
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+ }
+ li a{
+    display: flex;
+    color: white;
+    padding: 0.5rem;
+ }
+ li a:hover{
+    background: black;
+    color: #fff;
+    border-radius: 0.5rem;
+ }
+.search{
+    background: none;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    padding-right: 40px;
+    
+}
+.form{
+    display: flex;
+    width: 300px;
+    padding: 8px;
+    color: gray;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(142, 180, 186, 0.419) 0px 3px 6px, rgba(153, 92, 92, 0.359) 0px 3px 6px;
+    margin-right: 20px;
+}
+.form:hover{
+    background-color: black;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 20px 20px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif ;
+    background-image: linear-gradient(90deg, #00dbde 30% , #C850C0 46%, #FFCC70 100%) ;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+.context{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left:30%;
+    font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+body{
+    background: url(/project.html/bg/bg.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
